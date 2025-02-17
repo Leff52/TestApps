@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "sass": "^1.85.0"
+  },
+  "name": "testapps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "levkaflower <levkaflower@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+  },
+  "keywords": [],
+  "description": ""
+}

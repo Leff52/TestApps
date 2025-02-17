@@ -1,0 +1,30 @@
+@use "sass:color";
+
+$primary-color: #007bff;
+$font-stack: Helvetica, sans-serif;
+$hover-color: color.adjust($primary-color, $lightness: -10%);
+
+
+body {
+  font-family: $font-stack;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+
+button {
+  background-color: $primary-color;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: $hover-color;
+  }
+}

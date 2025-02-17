@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: #e60202;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: darkcyan;
+}
+
+/*# sourceMappingURL=style.css.map */
