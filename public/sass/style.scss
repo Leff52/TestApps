@@ -1,7 +1,7 @@
 @use "sass:color";
 
-$primary-color: #007bff;
-$font-stack: Helvetica, sans-serif;
+$primary-color: #cbabff;
+$font-stack: Overpass, sans-serif;
 $hover-color: color.adjust($primary-color, $lightness: -10%);
 
 
